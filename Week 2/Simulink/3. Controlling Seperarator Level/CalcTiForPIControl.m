@@ -14,6 +14,6 @@ bode(sysPI)
 % to get the desired phase lag at the crossover frequency from the earlier
 % section of controller design, in this case 0.6 rad s^-1.
 % (NB: other groups seemed to use 0.8 rad s^-1?)
-
+%
 % Can be done graphically with Bode plot, alternatively, substitute s=jw
 % into transfer function and find complex angle.

@@ -19,4 +19,3 @@ bode(sys1)
 
 % 23db for 45deg phase margin
 % gain of 14
-
