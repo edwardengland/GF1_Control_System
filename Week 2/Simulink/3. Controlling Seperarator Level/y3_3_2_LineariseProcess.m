@@ -7,7 +7,7 @@
 % L2: 1
 % F200 Lag: 208
 % F2 Lag: 2
-lin = linmod('y3_3_2_Linearisation_Ready', [50.5, 25, 194.7, 1, 208, 2] ,[10, 2, 5, 40, 208, 25, 50, 194.7])
+lin = linmod('y3_3_2_MIMO_OL_System', [50.5, 25, 194.7, 1, 208, 2] ,[10, 2, 5, 40, 208, 25, 50, 194.7])
 
 % Only want F2 to L2
 A = lin.a;
