@@ -29,7 +29,7 @@ targetPM = 45;
 
 win = logspace(-3, 2, 1000);
 [mag, phase, wout] = bode(sys1, win);
-% bode(sys1)
+bode(sys1)
 
 mag = reshape(mag, [], 1);
 phase = reshape(phase, [], 1);
