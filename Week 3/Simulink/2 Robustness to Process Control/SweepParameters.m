@@ -1,5 +1,6 @@
 %% CONFIGURE
 mdl = 'x2_1_Param_Sweep';
+mdl = 'x2_2_Param_Sweep_w_Pulse'
 
 % Input parameter values to sweep;
 rhoA_sweep = 10:1:40; % 20
@@ -63,7 +64,10 @@ for iSim = 1:nSims
     simData(iSim).L2 = this_L2;
 
     plot(sp1, this_t, this_L2)
+    ylabel(sp1, 'L2')
     plot(sp2, this_t, this_P2)
+    ylabel(sp2, 'P2')
     plot(sp3, this_t, this_X2)
+    ylabel(sp3, 'X2')
 
 end
