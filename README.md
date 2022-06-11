@@ -7,6 +7,4 @@ Three PI controller were built for product composition, operating pressure and s
 Due to the system's nonlinearities, the PI controllers only worked well around the nominal operating point.
 The performance gains of gain-scheduled control and state-feedback were then explored.
 
-https://github.com/edwardengland/GF1_Control_System/blob/main/SimulinkGIF.gif
-
-https://github.com/edwardengland/GF1_Control_System/blob/main/Week%204/Report/GF1_ejpe3_report3.pdf
+![til](https://github.com/edwardengland/GF1_Control_System/blob/main/SimulinkGIF.gif)
